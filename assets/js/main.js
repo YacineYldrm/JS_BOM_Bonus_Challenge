@@ -52,12 +52,12 @@ const catWalk = () =>
     move = setInterval(catMove, 100);
 }
 
-function pause() 
+const pause = () => 
 {
     clearInterval(move);
 }
 
-function turn() 
+const turn = () => 
 {
     if(direction)
     {
@@ -71,7 +71,7 @@ function turn()
     }
 }
 
-function catSpeed() 
+const catSpeed = () => 
 {
     steps = 20;
     clearInterval(move);
